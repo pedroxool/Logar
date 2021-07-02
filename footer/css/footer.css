@@ -18,7 +18,7 @@ footer{
     max-width: 100% ;
     height: auto;
     margin: auto !important;
-    padding: 40px;
+    padding: 40px 10px ;
 }
 
 .container-body{
@@ -31,7 +31,7 @@ footer{
 }
 
 .colum1{
-    max-width: 400px;
+    max-width: 500px;
     /* border: 1px green solid; */
 }
 
@@ -76,7 +76,7 @@ footer{
 
 
 .colum3{
-    max-width: 400px;
+    max-width: 400px !important;
     /* border: 1px green solid; */
 }
 
@@ -97,7 +97,7 @@ footer{
 .row2 label{
     margin-top: 10px;
     margin-left: 20px;
-    max-width: 140px;
+    max-width: 180px;
 }
 .row2 a{
    text-decoration: none;
@@ -149,7 +149,7 @@ footer{
     
     .colum1,.colum2,
     .colum3{
-        margin: 15px;
+        margin: 5px;
     }
 }
 @media screen and (max-width: 680px){
@@ -160,8 +160,30 @@ footer{
         
         /* border: 1px green solid; */
     }
+    .colum3{
+        max-width: 100%;
+        /* border: 1px green solid; */
+    }
+    .row2{
+        margin-top: 20px;
+        padding: 5px;
+        min-width: 350px;
+        display: flex;
+    }
+   
 
   
+}
+@media screen and (max-width: 400px){
+    .row2 label{
+        font-size: 14px ;
+      }
+      .row2{
+        margin-top: 20px;
+        padding: 5px;
+        min-width: 310px;
+        display: flex;
+    }
 }
 
 

@@ -551,7 +551,7 @@ section{
 
 @media (max-width: 560px){
 
-  /* .home .content h1{
+  .home .content h1{
     font-size: 2em;
     line-height: 40px;
   }
@@ -568,6 +568,35 @@ section{
     
   font-size: 1em;
   font-weight: 600;
-} */
+}
+
+.icono-franja {
+
+  padding: 5px;
+  width: 25%;
+  
+/* border: 2px red solid; */
+
+}
+
+.icono-franja img{
+
+  padding: 5px;
+  width: 100%;
+  height: auto;
+/* border: 2px red solid; */
+
+}
+.icono-franja-izq{
+ margin: 30px 0px 10px 10px;
+  
+}
+.icono-franja-der{
+  margin: 30px 30px 10px 0px;
+   
+ }
+}
+@media (max-width: 560px){
+
 }
       
