@@ -240,8 +240,8 @@ section{
   z-index: 777;
   content: '';
   position: absolute;
-  background: rgba(3, 25, 63, 0.5);/*rgba(3, 96, 251, 0.3) original--*/
-  width: 100%;
+  background: rgba(3, 25, 63, 0.5); 
+  width: 100%;/*rgba(3, 96, 251, 0.3) original--*/
   height: 100%;
   top: 0;
   left: 0;

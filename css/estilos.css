@@ -429,7 +429,7 @@ box-shadow:0px 0px 15px var(--azulLogar);
 
 }
 .normas-iso{
-  width: 550px;
+  /* width: 550px; */
   height: auto;
   padding: 10px 25px 25px 25px;
   margin: 5px;
@@ -455,6 +455,7 @@ box-shadow:0px 0px 15px var(--azulLogar);
   line-height: 30px;
 }
 .normas-iso p{
+  text-align: justify;
 font-size: 1.2em;
 font-weight: 500;
 color: var(--grisOscuro);
@@ -467,6 +468,40 @@ color: var(--grisOscuro);
 .social h2{
 color: orange;
 }
+
+/* Conocenos */
+.conocenos-franja{
+  max-width: 850px;
+    height: auto;
+  padding: 10px 25px 25px 25px;
+  margin: 5px;
+  /* border: 1px green solid; */
+  font-family: "Poppins", sans-serif;
+}
+.conocenos-franja p{
+  text-align: center;
+  color: white;
+}
+.contenedor-conocenos{
+  
+  background-color: var(--Azul-Logar);
+  
+}
+/* .limite-contenedor{
+  max-width: 1200px;
+} */
+.padding-top-button{
+ 
+  
+  /* margin-top: 25px; */
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.img-sello{
+  width: 400px; 
+  height: 400px;
+}
+/* Fin Conocenos */
 
 
 .redes {
@@ -667,7 +702,9 @@ margin-top:0px;
   header {
     padding: 40px 15px;
   }
-
+  .conocenos-franja{
+    max-width: none;
+  }
 
 }
 @media screen and (max-width: 560px) {
@@ -689,5 +726,12 @@ margin-top:0px;
   } */
   .redes {
     padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .img-sello{
+    width: 300px; 
+    height: 300px;
   }
 }

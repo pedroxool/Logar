@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Logar",
+			"path": "."
+		},
+		{
+			"name": "VideoSlide",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Logar"
+	}
+}
