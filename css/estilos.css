@@ -278,6 +278,10 @@ img {
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-around;
+  
+    margin-bottom: 20px;
+    /* margin-top: 0; */
+  
   /* border: 1px red solid; */
 }
 .article-equipo{
@@ -696,6 +700,16 @@ margin-top:0px;
     
   }
 
+}
+
+@media screen and (max-width: 1120px){
+  .article-equipo{
+    margin-bottom:  10px;
+  }
+  .section-equipo{
+    margin-bottom: 0;
+    /* margin-top: 0; */
+  }
 }
 
 @media screen and (max-width: 610px) {
