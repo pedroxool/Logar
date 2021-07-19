@@ -25,68 +25,67 @@
 
 
 
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../css/estilos.css">
-  <link rel="stylesheet" href="obra-civil.css">
-  <link rel="stylesheet" href="cssfile.css">
-  <link rel="stylesheet" href="../css/animacion.css">
-  <link rel="stylesheet" href="../footer/css/footer.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="servicios/obra-civil.css">
+  <link rel="stylesheet" href="servicios/cssfile.css">
+  <link rel="stylesheet" href="footer/css/footer.css">
+  <link rel="stylesheet" href="css/cotiza.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <script src='https://kit.fontawesome.com/66f5e943e2.js' crossorigin='anonymous'></script>
-  <title>Obra Civil</title>
+  <script src='https://kit.fontawesome.com/66f5e943e2.js' crossorigin='anonymous'></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+  <script src="sweetalert2.all.min.js"></script>
+  
+  <script src="sweetalert2.min.js"></script>
+<link rel="stylesheet" href="sweetalert2.min.css">
+  
+    <title>Cotiza</title>
 </head>
 <body>
   <header>
       
-    <a href="https://pedroxool.github.io/Logar/" class="brand"><img class="logo" src="../img/Recurso2.png"></a>
+    <a href="https://pedroxool.github.io/Logar/" class="brand"><img class="logo" src="img/Recurso2.png"></a>
     
     <div class="menu-btn"></div>
     <div class="navigation">
       <div class="navigation-items">
-        <a href="../conocenos.html">CONÓCENOS</a>
+        <a href="conocenos.html">CONÓCENOS</a>
         <div class="dropdown">
           <button class="dropbtn">SERVICIOS</button>
           <div class="dropdown-content">
-            <a class="submenu" href="obra-civil.html">OBRA CIVIL</a>
-            <a class="submenu" href="urbanizacion.html">URBANIZACIÓN</a>
-            <a class="submenu" href="diseno-arquitectonico.html">DISEÑO ARQUITECTÓNICO</a>
-            <a class="submenu" href="tramites.html">TRÁMITES Y PERMISOS</a>
-            <a class="submenu" href="bienes-raices.html">BIENES RAÍCES</a>
-            <a class="submenu" href="maquinaria.html">RENTA DE MAQUINARIA</a>
-            <a class="submenu" href="mantenimiento.html">MANTENIMIENTO</a>
-            <a class="submenu" href="estructuras-metalicas.html">ESTRUCTURAS METÁLICAS</a>
+            <a class="submenu" href="servicios/obra-civil.html">OBRA CIVIL</a>
+            <a class="submenu" href="servicios/urbanizacion.html">URBANIZACIÓN</a>
+            <a class="submenu" href="servicios/diseno-arquitectonico.html">DISEÑO ARQUITECTÓNICO</a>
+            <a class="submenu" href="servicios/tramites.html">TRÁMITES Y PERMISOS</a>
+            <a class="submenu" href="servicios/bienes-raices.html">BIENES RAÍCES</a>
+            <a class="submenu" href="servicios/maquinaria.html">RENTA DE MAQUINARIA</a>
+            <a class="submenu" href="servicios/mantenimiento.html">MANTENIMIENTO</a>
+            <a class="submenu" href="servicios/estructuras-metalicas.html">ESTRUCTURAS METÁLICAS</a>
           </div>
         </div>        
-        <a href="../catalogo.html">CATÁLOGO</a>
-        <a href="../blog.html">BLOG</a>
-        <a class="parpadea" href="../cotiza.html">¡COTIZA!</a>
+        <a href="catalogo.html">CATÁLOGO</a>
+        <a href="blog.html">BLOG</a>
+        <a class="parpadea" href="cotiza.html">¡COTIZA!</a>
       </div>
     </div>
   </header>
   <div class="slider" style="filter: brightness(80%);">
 		<!-- fade css -->
 		<div class="myslide fade">
-			<!-- <div class="txt">
-				<h1>OBRA CIVIL</h1>
-				<p>Servicio Personalizado<br>Garantia en todas nuestras obras</p>
-			</div> -->
-			<img class="img-slider" src="obra-civil/img/Slide1.jpg" style="width: 100%; height: 100%;">
+  
+			<img class="img-slider" src="conocenos/img/Slide2.jpg" style="width: 100%; height: 100%;">
+
 		</div>
 		
 		<div class="myslide fade">
-			<!-- <div class="txt">
-        <h1>OBRA CIVIL 2</h1>
-				<p>Servicio Personalizado<br>Garantia en todas nuestras obras</p>
-			</div> -->
-			<img class="img-slider" src="obra-civil/img/Slide2.jpg" style="width: 100%; height: 100%;">
+
+			<img class="img-slider" src="conocenos/img/oficinas.jpg" style="width: 100%; height: 100%;">
 		</div>
 		
 		<div class="myslide fade">
-			<!-- <div class="txt">
-        <h1>OBRA CIVIL 3</h1>
-				<p>Servicio Personalizado<br>Garantia en todas nuestras obras</p>
-			</div> -->
-			<img class="img-slider" src="obra-civil/img/slide3.jpg" style="width: 100%; height: 100%;">
+	
+			<img class="img-slider" src="conocenos/img/lideres.JPG" style="width: 100%; height: 100%;">
 		</div>
 		
 
@@ -104,31 +103,122 @@
 		</div>
 		<!-- /onclick js -->
 	</div>
-<article class="contenedor-franjas-izq contenedor-franjas animadoIzq">
-  <div class="franja-izq">
-    <h1>El mejor equipo de Ingenieros</h1>
-    <p>Realizamos construcciones y remodelaciones bajo las normas en seguridad, todo para ofrecer un patrimonio digno y con mayor plusvalía, tanto a nivel Residencial, como Comercial e Industrial.</p>
+<br>
+  <div class="centrado">
+    <h2>Contactanos</h2>
+  </div> 
+  <div class="linea-division"></div>
+  
+ <br>
+<!-- SE AGREGA FORMULARIO DE CONTACTO -->
+
+<div class="container ancho-contacto">
+  <form action="PHPMail/enviar.php" id="main-contact-form" name="contacto" method="POST">
+    <div class="row-contacto">
+      <div class="col-25">
+        <label for="name">Nombre</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre.">
+      </div>
+    </div>
+    <div class="row-contacto">
+      <div class="col-25">
+        <label for="correo">E-mail</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="email" name="email" placeholder="Ingrese su correo electronico.">
+      </div>
+    </div>
+    <div class="row-contacto">
+      <div class="col-25">
+        <label for="tel">Telefono</label>
+      </div>
+      <div class="col-75">
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese se telefono a 10 digitos.">
+      </div>
+
+
+    </div>
+    <div class="row-contacto">
+      <div class="col-25">
+        <label for="msj">Mensaje</label>
+      </div>
+      <div class="col-75">
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe un mensaje." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row-contacto">
+      <input type="button" value="Enviar" onclick="validarform()">
+    </div>
+  </form>
+</div>
+<!-- FIN DE FORMULARIO DE CONTACTO -->
+
+
+
+    <!-- <div style="height: auto;">
+      <div class="container">
+       
+        <div class="card">
+            <img src="conocenos/img/javier.jpg">
+            <h3>JAVIER GRANIEL</h3>
+            <h4>ARQUITECTO</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+          
+        </div>
+        
+        <div class="card">
+            <img src="conocenos/img/ingeniero.jpg">
+            <h3>RODOLFO LOEZA</h3>
+            <h4>INGENIERO CIVIL</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+          
+        </div>
+        
+        <div class="card">
+            <img src="conocenos/img/daniel_manzanilla.jpg">
+            <h3>DANIEL MANZANILLA</h3>
+            <h4>INGENIERO CIVIL</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+        
+        </div>
+        
+    </div> -->
+    
+    </div>
+    
+
+
+<!-- Fin de las cards -->
+
+<br><br><br>
+
+<article class="contenedor-iso contenedor-conocenos padding-top-button" style="padding-bottom: 45px;">
+  <div class="limite-contenedor">
+    <img loading="lazy" class="img-normas img-sello " style="margin-top: 45px;" src="conocenos/img/sello-garantia.png" >
+  
+  <div class="normas-iso ambiental conocenos-franja">
+  
+    
+    <p style="padding-bottom: 25px;">En CONSTRUCTORES
+      LOGAR estamos
+      comprometidos a entregar un
+      trabajo profesional de alta
+      calidad que garantiza a
+      nuestros clientes la seguridad
+      y la confianza al contratar
+      nuestros servicios.</p><br>
+    
   </div>
-  <div class="icono-franja icono-franja-izq" ><img src="obra-civil/img/materiales.png" alt="" width="150px" height="150px"></div>
-</article>
-<article class="contenedor-franjas-der contenedor-franjas animadoDer ">
-  <div class="icono-franja icono-franja-der" ><img src="obra-civil/img/ingeniero.png" alt="" width="150px" height="150px"></div>
-  <div class="franja-der">
-    <h1>Todo tipo de obras</h1>
-    <p>Nuestros servicios abarcan desde la cimentación, hasta los últimos acabados, todo supervisado por personal capacitado.</p>
   </div>
   
-</article>
-<article class="contenedor-franjas-izq contenedor-franjas animadoIzq ">
-  <div class="franja-izq">
-    <h1>Garantía, calidad y servicio</h1>
-    <p>Olvidate de preocupaciones, nosotros nos encargamos de toda tu obra, brindandote un servicio personalizado con nuestro sello de garantía.</p>
-  </div>
-  <div class="icono-franja icono-franja-izq" ><img src="obra-civil/img/bosquejo.png" alt="" width="150px" height="150px"></div>
+  
   
 </article>
 
 
+  
 
       <!-- Inicia adaptacion del primer diseño -->
       <div  onclick="topFunction()" id="myBtn1">
@@ -144,48 +234,7 @@
         <i class="fas fa-arrow-circle-up"></i>
       </div> 
 
-
-      <br><br>
-      <h1 class="title-gallery">Galería de Obras</h1>
-      <div class="gallery-container">
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria1.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 1</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria2.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 2</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria3.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 3</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria4.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 4</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria5.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 5</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria6.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 6</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria7.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 7</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria8.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 8</h2>
-        </div>
-        <div class="gallery_item">
-          <img src="obra-civil/img/Galeria9.jpg" alt="" class="gallery_img">
-          <h2 class="gallery_title">Imagen 9</h2>
-        </div>
-      </div>
-      <br><br>
+  
   
       <!-- <iframe class="footer1" src="../../footer/footer.html" style="margin-bottom: -10px !important;" frameborder="0" ></iframe> -->
 
@@ -197,7 +246,7 @@
       
                  <div class="colum1">
                      <h1>Visitanos</h1><br>
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7592039924625!2d-89.62855688575516!3d21.002287394059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56755ce0459d21%3A0xc350560254bc3e32!2sConstructores%20Logar%20S.A%20de%20C.V!5e0!3m2!1ses!2smx!4v1625210865412!5m2!1ses!2smx" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.7592039924625!2d-89.62855688575516!3d21.002287394059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56755ce0459d21%3A0xc350560254bc3e32!2sConstructores%20Logar%20S.A%20de%20C.V!5e0!3m2!1ses!2smx!4v1625210865412!5m2!1ses!2smx" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       
                  </div>
       
@@ -206,16 +255,16 @@
                      <h1>Redes Sociales</h1>
       
                      <div class="row">
-                         <img loading="lazy" src="../footer/icon/facebook.png">
+                         <img loading="lazy" src="footer/icon/facebook.png">
                          <label><a target="_blank" href="https://www.facebook.com/constructoreslogar">Siguenos en Facebook</a></label>
                      </div>
                      <div class="row">
-                         <img loading="lazy" src="../footer/icon/instagram.png">
+                         <img loading="lazy" src="footer/icon/instagram.png">
                          <label><a  target="_blank" href="https://www.instagram.com/constructores.logar">Siguenos en Instagram</a></label>
                      </div>
                      <div class="row">
       
-                         <img loading="lazy" src="../footer/icon/youtube2.png">
+                         <img loading="lazy" src="footer/icon/youtube2.png">
                          <label><a target="_blank" href="https://www.youtube.com/channel/UCIZ6jZSLzExiqrFH2dQh8wA">Siguenos en Youtube</a></label>
                      </div>
       
@@ -228,17 +277,17 @@
                      <h1>Información Contactos</h1>
       
                      <div class="row2">
-                         <img loading="lazy" src="../footer/icon/house.png">
+                         <img loading="lazy" src="footer/icon/house.png">
                          <label>Calle 16A #23 X 35 y 35A Fracc. Colonial Chuburná Mérida, Yucatán CP: 97050</label>
                      </div>
       
                      <div class="row2">
-                         <img loading="lazy" src="../footer/icon/smartphone.png">
+                         <img loading="lazy" src="footer/icon/smartphone.png">
                          <label>(999) 289-5006</label>
                      </div>
       
                      <div class="row2">
-                         <img loading="lazy" src="../footer/icon/contact.png">
+                         <img loading="lazy" src="footer/icon/contact.png">
                           <label>recepcion@constructoreslogar.com</label>
                      </div>
       
@@ -263,9 +312,9 @@
          
       </footer>
         
-        <script src="jsfile.js"></script>
-        <script src="../js/scripts.js"></script>
-        <script src="../js/animacion.js"></script>
+        <script src="servicios/jsfile.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/contacto.js"></script>
         <script type="text/javascript">
           //Javacript for responsive navigation menu
           const menuBtn = document.querySelector(".menu-btn");

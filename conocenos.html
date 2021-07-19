@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="servicios/cssfile.css">
   <link rel="stylesheet" href="footer/css/footer.css">
   <link rel="stylesheet" href="conocenos/cards.css">
+  <link rel="stylesheet" href="css/animacion.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <script src='https://kit.fontawesome.com/66f5e943e2.js' crossorigin='anonymous'></script>
   
@@ -127,7 +128,7 @@
 
 
 <br><br>
-<article class="contenedor-franjas-izq contenedor-franjas">
+<article class="contenedor-franjas-izq contenedor-franjas animadoIzq">
   <div class="franja-izq">
     <h1>Misión</h1>
     <p>Brindar innovación e inspiración en nuestros diseños arquitectónicos,
@@ -139,7 +140,7 @@
   </div>
   <div class="icono-franja icono-franja-izq" ><img src="servicios/obra-civil/img/ingeniero.png" alt="" width="150px" height="150px"></div>
 </article>
-<article class="contenedor-franjas-der contenedor-franjas">
+<article class="contenedor-franjas-der contenedor-franjas animadoDer">
   <div class="icono-franja icono-franja-der" ><img src="conocenos/img/barras.png" alt="" width="150px" height="150px"></div>
   <div class="franja-der">
     <h1>Visión</h1>
@@ -150,8 +151,8 @@
       servicio y calidad.</p>
   </div>
   
-</article>
-<article class="contenedor-franjas-izq contenedor-franjas">
+</article> 
+<article class="contenedor-franjas-izq contenedor-franjas animadoIzq">
   <div class="franja-izq">
     <h1>Valores</h1>
     <p>Nuestros valores primordiales son: Honestidad, Respeto,
@@ -177,7 +178,8 @@
             <img src="conocenos/img/javier.jpg">
             <h3>JAVIER GRANIEL</h3>
             <h4>ARQUITECTO</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <h4 class="cargo">Líder de proyectos</h4>
+            <p>Arquitecto egresado de la facultad de arquitectura de la UADY</p>
             <!-- <a href="#">Leer más</a> -->
         </div>
         
@@ -185,7 +187,8 @@
             <img src="conocenos/img/ingeniero.jpg">
             <h3>RODOLFO LOEZA</h3>
             <h4>INGENIERO CIVIL</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <h4 class="cargo">CEO - fundador - Mentor - coach</h4>
+            <p>constructores Logar, Futuro Influencer en construcción, desarrollos inmobiliarios</p>
             <a href="https://www.facebook.com/Rodolfo.Loeza.Logar" target="_blank">Leer más</a>
         </div>
         
@@ -193,12 +196,13 @@
             <img src="conocenos/img/daniel_manzanilla.jpg">
             <h3>DANIEL MANZANILLA</h3>
             <h4>INGENIERO CIVIL</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+            <h4 class="cargo">Supervisor</h4>
+            <p> Ingeniero egresado del Instituto Tecnológico de Mérida</p>
             <!-- <a href="#">Leer más</a> -->
         </div>
         
     </div>
-    <div style="height: auto;">
+    <!-- <div style="height: auto;">
       <div class="container">
        
         <div class="card">
@@ -206,7 +210,7 @@
             <h3>JOSUEL</h3>
             <h4>INGENIERO CIVIL</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-            <!-- <a href="#">Leer más</a> -->
+            
         </div>
         
         <div class="card">
@@ -214,7 +218,7 @@
             <h3>IVAN</h3>
             <h4>INGENIERO CIVIL</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-            <!-- <a href="#">Leer más</a> -->
+           
         </div>
         
         <div class="card">
@@ -222,10 +226,10 @@
             <h3>ANTONI DZUL</h3>
             <h4>ADMINISTRACIÓN</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-            <!-- <a href="#">Leer más</a> -->
+           
         </div>
         
-    </div>
+    </div> -->
     <!-- <div style="height: auto;">
       <div class="container">
        
@@ -293,9 +297,9 @@
       <div  onclick="topFunction()" id="myBtn1">
         <div class="icon-bar">
           <a href="https://www.facebook.com/constructoreslogar" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-          <a href="https://www.instagram.com" class="twitter" target="_blank"><i class="fa fa-instagram"></i></a> 
-          <a href="https://www.google.com" class="google" target="_blank"><i class="fa fa-google"></i></a> 
-          <a href="https://www.youtube.com" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
+          <a target="_blank" href="https://www.instagram.com/constructores.logar" class="twitter" target="_blank"><i class="fa fa-instagram"></i></a> 
+          <a target="_blank" href="https://www.google.com" class="google" target="_blank"><i class="fa fa-google"></i></a> 
+          <a target="_blank" href="https://www.youtube.com/channel/UCIZ6jZSLzExiqrFH2dQh8wA" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> 
         </div>
       </div>
       
@@ -383,6 +387,7 @@
         
         <script src="servicios/jsfile.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="js/animacion.js"></script>
         <script type="text/javascript">
           //Javacript for responsive navigation menu
           const menuBtn = document.querySelector(".menu-btn");
